@@ -23,6 +23,7 @@ app.get("/api", (req: Request, res: Response): any => {
   });
 });
 
+console.log("Welome");
 app.post("/api/create-student", (req: Request, res: Response): any => {
   const { name, score } = req.body;
   console.log(req.body);
